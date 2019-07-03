@@ -1,0 +1,122 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Ray Stratos";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @*<link rel="stylesheet" ype="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/sass" href="sass/_styles.scss">*@
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="header_container">
+                <div class="logo">
+                    <a class="navbar-brand" href="#home">
+                        <img src="img/RayStratos.png">
+                    </a>
+                    <!-- <img src="img/RayStratos.png"> -->
+                </div>
+                @*<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>*@
+            </div>
+
+            <div id="home" class="main_container">
+                <!-- <h1>Reggie Lussier</h1> -->
+                <img src="img/RayStratos.png">
+                <p class="lead">Web Developer &#x25C8; Designer &#x25C8; Adventurer</p>
+            </div>
+            <div id="about" class="about_container">
+                <h2>About Me</h2>
+                <div class="about_section">
+                    <img src="img/animeme.png">
+                    <div class="about_paragraph">
+                        <h3>
+                            “An idea that is developed and put into action
+                            is more important than an idea that exists
+                            only as an idea.” ~Buddha.
+                        </h3>
+                        <p>
+                            Hi, my name is Regan Lussier. I am a front
+                            end developer based in Dallas, TX, with over
+                            years of experience in both front end and back
+                            end development.  On my spare time, I enjoy
+                            playing the guitar, being in nature, and hanging
+                            out with my feathery companion Xena.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="work" class="work_container">
+                <h2>My Work</h2>
+
+                <div class="slick_container">
+                    <div class="slick responsive active" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+                        <div class="slick__card-body">
+                            <a href="#"><img src="img/DoUHave_img.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div id="contact" class="contact_container">
+            <h2>Let's Connect</h2>
+            <div class="contact_info">
+                <span>Phone Number: <a href="tel:+12693706368">269-370-6368</a></span>
+                <span>Email: <a href="mailto:reganlussier@gmail.com">reganlussier@gmail.com</a></span>
+            </div>
+        </div>
+        <div class="footer_container">
+            <p>Copyright 2018</p>
+        </div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="Gruntfile.js"></script>
+    <script src="js/index.js"></script>
+    <scripts src="js/slick/slick.min.js"></scripts>
+    <!-- <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="js/slick/slick.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<head runat="server">
+     <asp:ContentPlaceHolder id="head" runat="server">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Ray Stratos</title>
+        <link rel="stylesheet" ype="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" type="text/sass" href="sass/_styles.scss"/>
+     </asp:ContentPlaceHolder>
+</head>
