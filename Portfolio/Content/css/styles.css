@@ -1,0 +1,71 @@
+@import 'fonts.css';
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, #1C2541, #3A506B, #5BC0BE);
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 75px;
+}
+
+.nav-link {
+    color: #CDF9FF;
+}
+
+.nav-link:hover {
+    opacity: .5;
+}
+
+.nav-link:active {
+    color: cyan;
+}
+
+.bg-primary {
+    background-color: transparent;
+    background-image: url("../img/mainpage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: cover;
+    background-position: auto;
+    width: 100%;
+    /* height: 750px; */
+}
+
+h1 {
+    font-size: 192px;
+    /* padding-top: 60px; */
+    background: -webkit-linear-gradient(#75D5E3, #ACF5FB, #8AE5FF, #C3FBF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+}
+
+.bg-primary .lead {
+    font-size: 48px;
+    /* padding-bottom: 60px; */
+}
+
+h2 {
+    color: #6662C2;
+}
+
+p {
+    color: #87CEEB;
+}
+
+.m-0 {
+    color: #87CEEB;
+}
+
+.social-icon {
+    font-size: 36px;
+    color: #010110;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+    opacity: .5;
+    color: #010110;
+}
